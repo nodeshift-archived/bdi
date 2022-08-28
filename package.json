@@ -1,0 +1,28 @@
+{
+  "name": "bdi",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeshift-starters/bdi.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeshift-starters/bdi/issues"
+  },
+  "homepage": "https://github.com/nodeshift-starters/bdi#readme",
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-semistandard": "^17.0.0"
+  }
+}
