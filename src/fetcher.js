@@ -4,7 +4,7 @@ const urls = [
   'https://raw.githubusercontent.com/nodeshift-starters/nodejs-rest-http/main/package.json'
 ];
 
-async function fetchAll () {
+export async function fetchAll () {
   const result = [];
   for (const url of urls) {
     const res = await fetch(url);
@@ -19,5 +19,3 @@ async function fetchAll () {
   }
   return result;
 }
-
-console.log(await fetchAll());

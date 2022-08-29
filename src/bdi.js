@@ -1,4 +1,6 @@
-const content = {};
+import * as fetcher from './fetcher.js';
+
+const content = await fetcher.fetchAll();
 
 /**
  * This function returns the amount of different dependencies
