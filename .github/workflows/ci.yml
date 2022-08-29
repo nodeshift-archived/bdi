@@ -5,9 +5,16 @@ on:
   pull_request:
     branches: [ main ]
 jobs:
-  test:
-    uses: pkgjs/action/.github/workflows/node-test.yaml@v0.1
-    with:
-      runs-on: ubuntu-latest
-      upgrade-policy: lts
-      test-command: npm test
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm ci
+    - run: npm test
