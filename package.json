@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node .",
-    "pretest": "eslint --ignore-path .gitignore .",
+    "start": "node .",
+    "pretest": "eslint --fix --ignore-path .gitignore .",
     "test": "node --test"
   },
   "engines": {
