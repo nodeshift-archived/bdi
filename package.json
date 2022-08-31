@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/nodeshift-starters/bdi#readme",
   "devDependencies": {
-    "eslint": "^8.22.0",
-    "eslint-config-semistandard": "^17.0.0"
+    "eslint": "^8.22.0"
   }
 }
