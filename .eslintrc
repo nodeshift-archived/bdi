@@ -1,11 +1,11 @@
 {
-  "extends": "semistandard",
   "env": {
     "es6": true,
     "node": true
   },
   "parserOptions": {
-    "ecmaVersion": 2022
+    "ecmaVersion": 2022,
+    "sourceType": "module"
   },
   "rules": {
     "standard/no-callback-literal": "off",
