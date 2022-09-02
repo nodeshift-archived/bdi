@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node .",
     "pretest": "eslint --fix --ignore-path .gitignore .",
-    "test": "node --test"
+    "test": "TEST=true node --test test/fetcher.test.js test/bdi.test.js"
   },
   "engines": {
     "node": "18"

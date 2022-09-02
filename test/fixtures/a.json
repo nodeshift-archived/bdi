@@ -1,0 +1,12 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "dependencies": {
+    "nodeshift": "^8.7.0",
+    "opossum": "^6.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "mocha": "^10.0.0"
+  }
+}
