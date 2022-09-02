@@ -1,2 +1,2 @@
-![Node.js CI](https://github.com/nodeshift-starters/bdi/workflows/ci/badge.svg)
+![Node.js CI](https://github.com/nodeshift-archived/bdi/workflows/ci/badge.svg)
 # bdi
