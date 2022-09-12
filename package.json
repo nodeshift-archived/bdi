@@ -24,5 +24,8 @@
   "homepage": "https://github.com/nodeshift-starters/bdi#readme",
   "devDependencies": {
     "eslint": "^8.22.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
   }
 }
